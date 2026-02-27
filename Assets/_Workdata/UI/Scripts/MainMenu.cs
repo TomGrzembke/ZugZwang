@@ -1,0 +1,101 @@
+using System;
+using System.Collections.Generic;
+using MyBox;
+using UnityEngine;
+
+public class MainMenu : MonoBehaviour
+{
+    public enum ScreenTypes
+    {
+        MAIN_MENU = 0,
+        HIGHSCORE_MENU = 10,
+        SETTINGS_MENU = 20,
+        CREDITS_MENU = 30
+    }
+
+    [Serializable]
+    private struct ScreenEntry
+    {
+        public ScreenTypes type;
+        public GameObject screen;
+    }
+
+    [Separator("Starting Options")]
+    [SerializeField] private ScreenTypes startingType;
+
+    [Separator("Screens")]
+    [SerializeField] private List<ScreenEntry> screenEntries = new();
+
+    [Separator("Animations")]
+    [SerializeField] private Animator highscoreMessageAnimator;
+    [SerializeField] private FadeAnimation fadeAnimation;
+
+    private readonly Dictionary<ScreenTypes, GameObject> screens = new();
+    private ScreenTypes currentScreen;
+
+    private SceneLoader sceneLoader;
+
+    private void Awake()
+    {
+        sceneLoader = GetComponent<SceneLoader>();
+        
+        if (!PlayerPrefs.HasKey("level")) Prefs.Level = 0;
+        if (!PlayerPrefs.HasKey("xp")) Prefs.Xp = 0;
+
+        foreach (var entry in screenEntries)
+        {
+            if (!screens.ContainsKey(entry.type))
+                screens.Add(entry.type, entry.screen);
+        }
+    }
+
+    private void Start()
+    {
+        foreach (var screen in screens.Values)
+            screen.SetActive(false);
+
+        if (screens.TryGetValue(startingType, out var startScreen))
+            startScreen.SetActive(true);
+        
+        if (Prefs.NewScore)
+        {
+            highscoreMessageAnimator.SetTrigger("NewHighscore");
+            Prefs.NewScore = false;
+        }
+    }
+
+    public void SwitchToMainMenu() => SwitchScreen(ScreenTypes.MAIN_MENU);
+    public void SwitchToHighscoreMenu() => SwitchScreen(ScreenTypes.HIGHSCORE_MENU);
+    public void SwitchToSettingsMenu() => SwitchScreen(ScreenTypes.SETTINGS_MENU);
+    public void SwitchToCreditsMenu() => SwitchScreen(ScreenTypes.CREDITS_MENU);
+
+    private void SwitchScreen(ScreenTypes type)
+    {
+        foreach (var screen in screens.Values)
+            screen.SetActive(false);
+
+        if (screens.TryGetValue(type, out var targetScreen))
+        {
+            targetScreen.SetActive(true);
+            currentScreen = type;
+        }
+        else
+        {
+            Debug.LogWarning($"Screen type {type} not found in MainMenu.");
+        }
+    }
+
+    public void StartGame()
+    {
+        if (Prefs.IsFirstGame)
+        {
+            sceneLoader.SetTargetScene("TutorialScene");
+            fadeAnimation.StartFade();
+        }
+        else
+        {
+            sceneLoader.SetTargetScene("EndlessScene");
+            fadeAnimation.StartFade();
+        }
+    }
+}

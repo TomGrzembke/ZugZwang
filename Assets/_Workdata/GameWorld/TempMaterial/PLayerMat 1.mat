@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: PLayerMat 1
+  m_Shader: {fileID: -6465566751694194690, guid: fd02a67d3f70747a0ba7c127734333bb, type: 3}
+  m_Parent: {fileID: 2100000, guid: 528808d05e27e4c0e9a832c19d230c32, type: 2}
+  m_ModifiedSerializedProperties: 6
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - _ADD_PRECOMPUTED_VELOCITY
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Ints: []
+    m_Floats:
+    - _CellDensity: 5.41
+    - _CracksThickness: 3
+    - _Glossiness: 0
+    - _GradientMidPoint: 1.53
+    - _GradientSmoothness: 3.1
+    - _Smoothness: 0.5
+    - _SmoothnessStrength: 0
+    - _TurbulenceSpeed: 0.2
+    m_Colors:
+    - _Bottom_Color: {r: 0.8679245, g: 0.72616214, b: 0.52812386, a: 0}
+    - _Color1: {r: 0.5754717, g: 0.0745234, b: 0.04071733, a: 0}
+    - _Color2: {r: 3.018868, g: 0.666189, b: 0, a: 0}
+    - _Flow_Speed_and_Direction: {r: 0, g: 0, b: 0, a: 0}
+    - _Top_Color: {r: 0.8867924, g: 0.8136649, b: 0.51450694, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
+--- !u!114 &9756813109396089
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 9

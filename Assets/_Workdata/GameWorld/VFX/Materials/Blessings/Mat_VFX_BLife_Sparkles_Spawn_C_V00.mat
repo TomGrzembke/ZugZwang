@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7682866236140683156
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 9
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Mat_VFX_BLife_Sparkles_Spawn_C_V00
+  m_Shader: {fileID: -6465566751694194690, guid: 87eb13ecc6564e44682391fa6db13faa, type: 3}
+  m_Parent: {fileID: 2100000, guid: bcc90c559fd479d4e9bdce9903c138f7, type: 2}
+  m_ModifiedSerializedProperties: 16
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3012
+  stringTagMap: {}
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _DissolveTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DistortionTexture:
+        m_Texture: {fileID: 2800000, guid: 535d6e0966b934782bca02e464278a45, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTexture:
+        m_Texture: {fileID: 2800000, guid: 545c5fbeedf3bfa498879f8b8f1b7c22, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Mask:
+        m_Texture: {fileID: 2800000, guid: a5e907f8cad7942328b92585a87335cc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureGradient:
+        m_Texture: {fileID: 2800000, guid: a5e907f8cad7942328b92585a87335cc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _FlowSpeed: 2.2
+    - _FoamDensity: 5.53
+    - _FoamSpeed: 6.6
+    - _FoamThickness: 1.22
+    - _QueueControl: 0
+    - _QueueOffset: 12
+    - _Strength_Distortion: 0.1
+    - _WaveHeight: 0
+    - _WaveSpread: 0
+    m_Colors:
+    - _Color1: {r: 0, g: 0.13475505, b: 0.9056604, a: 0}
+    - _Color2: {r: 0, g: 1.1024128, b: 7.3962264, a: 0}
+    - _Color_Black: {r: 0, g: 1.6037737, b: 0.30638996, a: 0}
+    - _Color_White: {r: 1.2969936, g: 6.1102805, b: 2.0836117, a: 0}
+    - _FlowDirection: {r: 0, g: 0, b: 0, a: 0}
+    - _LavaColor: {r: 0.03141355, g: 0.60469997, b: 1.9999998, a: 0}
+    - _LavaColor2: {r: 0, g: 1.9913362, b: 8.789808, a: 0}
+    - _PanDissolve: {r: 0, g: 0, b: 0, a: 0}
+    - _Pan_Distortion: {r: 0, g: -0.1, b: 0, a: 0}
+    - _Pan_MainTexture: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7814569553271255873
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 9
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Mat_Lit_Inter_C_BlessingofIce
+  m_Shader: {fileID: -6465566751694194690, guid: b5ecbcb2cf7860e4b81ba13a9b37c0de, type: 3}
+  m_Parent: {fileID: 2100000, guid: d3e99acc9d1a1b044848ce9c8f9e1ffe, type: 2}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _DiffuseMap:
+        m_Texture: {fileID: 2800000, guid: 1d1cefaac775e0148933dcc82c881133, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskforGlowing_Fluid_Effects:
+        m_Texture: {fileID: 2800000, guid: 1cab54234f31ebd4e851efb5f37ed0bd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SmoothnessTexture:
+        m_Texture: {fileID: 2800000, guid: a5d5064f06dc08d48a9363c85d5d9d8b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _GradientMidPoint: 0.06
+    - _GradientSmoothness: 4.34
+    - _SmoothnessStrength: 0.3
+    m_Colors:
+    - _Bottom_Color: {r: 0.04209684, g: 0.4022537, b: 0.8113208, a: 0}
+    - _Color1: {r: 0.109091505, g: 3.6308, b: 4.62548, a: 0}
+    - _Color2: {r: 2.9139988, g: 12.6358, b: 22.880287, a: 0}
+    - _Top_Color: {r: 0.12335351, g: 0.5681737, b: 0.7924528, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

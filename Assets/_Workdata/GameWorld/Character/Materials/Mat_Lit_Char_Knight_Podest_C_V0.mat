@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7814569553271255873
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 9
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Mat_Lit_Char_Knight_Podest_C_V0
+  m_Shader: {fileID: -6465566751694194690, guid: fd02a67d3f70747a0ba7c127734333bb, type: 3}
+  m_Parent: {fileID: 2100000, guid: 528808d05e27e4c0e9a832c19d230c32, type: 2}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MaskforGlowing_Fluid_Effects:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskforLava:
+        m_Texture: {fileID: 2800000, guid: 1b1aa44a64f85c940a3dc43118c4d67c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SmoothnessTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _CellDensity: 8.78
+    - _CracksThickness: 4
+    - _GradientMidPoint: 0.8
+    - _GradientSmoothness: 4.8
+    - _LavaCellDensity: 0.3
+    - _LavaSpeed: 0
+    - _LavaTurbulenceSpeed: 0.28
+    - _SmoothnessStrength: 0
+    - _TurbulenceSpeed: 0.68
+    m_Colors:
+    - _Bottom_Color: {r: 0.49019608, g: 0.29411766, b: 0.16078432, a: 0}
+    - _Color1: {r: 0.17333305, g: 0.11044855, b: 0.3207547, a: 0}
+    - _Color2: {r: 0, g: 0.37735856, b: 0.23028162, a: 0}
+    - _Flow_Speed_and_Direction: {r: -0.25, g: 0.28, b: 0, a: 0}
+    - _LavaColor1: {r: 0.018511934, g: 0.30188665, b: 0.3018868, a: 0}
+    - _LavaColor2: {r: 656.30597, g: 0, b: 821.1321, a: 0}
+    - _Top_Color: {r: 0.49019608, g: 0.29411766, b: 0.16078432, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

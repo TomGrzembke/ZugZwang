@@ -1,0 +1,40 @@
+{
+  "friendlyName": "Xiaomi Redmi Note 12",
+  "version": 1,
+  "screens": [
+    {
+      "width": 1080,
+      "height": 2400,
+      "dpi": 395,
+      "orientation": "Portrait",
+      "presentation": {
+        "overlayPath": "DeviceFrames/XiaomiRedmiNote12Frame.png",
+        "borderSize": {
+          "x": 58,
+          "y": 58,
+          "z": 62,
+          "w": 82
+        }
+      }
+    },
+    {
+      "width": 2400,
+      "height": 1080,
+      "dpi": 395,
+      "orientation": "LandscapeLeft",
+      "presentation": {
+        "overlayPath": "DeviceFrames/XiaomiRedmiNote12Frame.png",
+        "borderSize": {
+          "x": 118,
+          "y": 58,
+          "z": 118,
+          "w": 62
+        }
+      }
+    }
+  ],
+  "systemInfo": {
+    "operatingSystem": "Android OS 12 / API-31",
+    "deviceModel": "Redmi Note 12"
+  }
+}
