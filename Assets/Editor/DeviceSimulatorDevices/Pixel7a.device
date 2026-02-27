@@ -1,0 +1,40 @@
+{
+  "friendlyName": "Google Pixel 7a",
+  "version": 1,
+  "screens": [
+    {
+      "width": 1080,
+      "height": 2400,
+      "dpi": 429,
+      "orientation": "Portrait",
+      "presentation": {
+        "overlayPath": "DeviceFrames/Pixel7aFrame.png",
+        "borderSize": {
+          "x": 61,
+          "y": 61,
+          "z": 68,
+          "w": 77
+        }
+      }
+    },
+    {
+      "width": 2400,
+      "height": 1080,
+      "dpi": 429,
+      "orientation": "LandscapeLeft",
+      "presentation": {
+        "overlayPath": "DeviceFrames/Pixel7aFrame.png",
+        "borderSize": {
+          "x": 120,
+          "y": 68,
+          "z": 120,
+          "w": 68
+        }
+      }
+    }
+  ],
+  "systemInfo": {
+    "operatingSystem": "Android OS 13 / API-33",
+    "deviceModel": "Pixel 7a"
+  }
+}

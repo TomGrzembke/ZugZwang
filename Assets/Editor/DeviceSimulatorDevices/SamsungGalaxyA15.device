@@ -1,0 +1,40 @@
+{
+  "friendlyName": "Samsung Galaxy A15",
+  "version": 1,
+  "screens": [
+    {
+      "width": 1080,
+      "height": 2340,
+      "dpi": 396,
+      "orientation": "Portrait",
+      "presentation": {
+        "overlayPath": "DeviceFrames/SamsungGalaxyA15Frame.png",
+        "borderSize": {
+          "x": 57,
+          "y": 57,
+          "z": 60,
+          "w": 86
+        }
+      }
+    },
+    {
+      "width": 2340,
+      "height": 1080,
+      "dpi": 396,
+      "orientation": "LandscapeLeft",
+      "presentation": {
+        "overlayPath": "DeviceFrames/GalaxyA15Frame.png",
+        "borderSize": {
+          "x": 120,
+          "y": 57,
+          "z": 120,
+          "w": 65
+        }
+      }
+    }
+  ],
+  "systemInfo": {
+    "operatingSystem": "Android OS 14 / API-34",
+    "deviceModel": "Galaxy A15"
+  }
+}

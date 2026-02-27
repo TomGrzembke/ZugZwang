@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-539320475905735977
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 9
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: T_Char_BishopV1
+  m_Shader: {fileID: -6465566751694194690, guid: 30a1c7bd22352b6409bfdb237d594106, type: 3}
+  m_Parent: {fileID: 2100000, guid: 9d34692fb9dfe9c46af85a9fbe1608a7, type: 2}
+  m_ModifiedSerializedProperties: 2
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BurnTexture:
+        m_Texture: {fileID: 2800000, guid: 0dc84a9051ad04f48b4afcc0df3b7c61, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTexture:
+        m_Texture: {fileID: 2800000, guid: 8603fd15ad23ce341a89ff1d89c040f0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RimMaskTexture:
+        m_Texture: {fileID: 2800000, guid: 7c4a4cd3043a847f0aaf2920900f2bc7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Emission_Strength: 0.75
+    - _VisualEffects: 1
+    m_Colors:
+    - _MainTint: {r: 0.7924528, g: 0, b: 0.27814588, a: 0}
+    - _RimColor: {r: 1, g: 0.88235295, b: 0.72156864, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

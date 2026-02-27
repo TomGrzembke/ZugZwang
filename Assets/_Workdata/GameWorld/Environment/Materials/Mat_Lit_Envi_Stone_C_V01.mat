@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7814569553271255873
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 9
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Mat_Lit_Envi_Stone_C_V01
+  m_Shader: {fileID: -6465566751694194690, guid: b5ecbcb2cf7860e4b81ba13a9b37c0de, type: 3}
+  m_Parent: {fileID: 2100000, guid: e04fa98cd6a09e64b86ed11e74bbdcb5, type: 2}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  m_LockedProperties: _BaseSmoothness _Bottom_Color _CracksThickness _GradientSmoothness
+    _Height _LavaCellDensity _LavaColor1 _LavaColor2 _LavaSpeed _LavaTurbulenceSpeed
+    _MaskforLava _Top_Color
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _DiffuseMap:
+        m_Texture: {fileID: 2800000, guid: 22c42bc0573e1bd469813bfaf64d0100, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskforGlowing_Fluid_Effects:
+        m_Texture: {fileID: 2800000, guid: a28368b9a2f249b4ba91e1bbb9223c2f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SmoothnessTexture:
+        m_Texture: {fileID: 2800000, guid: 22c42bc0573e1bd469813bfaf64d0100, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _GradientSmoothness: 1.58
+    - _Height: 1.97
+    - _SmoothnessMapStrength: 7.32
+    m_Colors:
+    - _LavaColor2: {r: 17.118544, g: 1.5686816, b: 0, a: 0}
+    - _Top_Color: {r: 0.3962264, g: 0.21798624, b: 0.21119614, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
