@@ -1,9 +1,8 @@
 # ZugZwang
 .. is a strategic mobile game where chess-like planning meets endless runner pace. 
 Figurines move automatically, swipe to manipulate the board.
-Created in Unity Engine. 
 
-Self-set Task: Create a mobile game for Google Play Store in 10 weeks.
+Self-set Task: Create a mobile game in Unity for Google Play Store in 10 weeks.
 
 This Project was displayed for 5 days at the Berlin IFA 2025.
 
