@@ -11,7 +11,7 @@ Head to Playstore: [here](https://play.google.com/store/apps/details?id=net.limi
 
 WebGL embed at itch.io (Not the target Platform): [here](https://tom-grzembke.itch.io/zugzwang-pc-version)
 
-## Code Examples
+## My Responsibility
 
 System | Script | Purpose | 
   --- | --- | --- | 
