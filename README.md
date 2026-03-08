@@ -30,7 +30,7 @@ ObjectPooling | [View](https://github.com/TomGrzembke/ZugZwang/blob/main/Assets/
 </div>
 
 # Additional Info
-This Project was displayed for 5 days at the Berlin IFA 2025.
+This Project was displayed for 5 days at the [Berlin IFA 2025](https://www.linkedin.com/posts/tom-grzembke_not-even-2-weeks-have-passed-since-gamescom-activity-7369819351832530946-s1Kl) (Trigger warning: LinkedIn).
 
 - The primary VCS was peforce, that's why the initial commit contains most files.
 - Release date: 15.08.2025
