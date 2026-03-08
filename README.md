@@ -30,12 +30,14 @@ ObjectPooling | [View](https://github.com/TomGrzembke/ZugZwang/blob/main/Assets/
 </div>
 
 # Additional Info
-This Project was displayed for 5 days at the [Berlin IFA 2025](https://www.linkedin.com/posts/tom-grzembke_not-even-2-weeks-have-passed-since-gamescom-activity-7369819351832530946-s1Kl) (Trigger warning: LinkedIn).
-
 - The primary VCS was peforce, that's why the initial commit contains most files.
 - Release date: 15.08.2025
 - Unity Version: 6000.0.51f1
 - Team Size : 9
+
+This Project was displayed for 5 days at the [Berlin IFA 2025](https://www.ifa-berlin.com/de).
+
+<img width="672" height="504" alt="IFAExamplePicture" src="https://github.com/user-attachments/assets/3f099c48-702e-439e-adcc-6ac30959f7ff" />
 
 ## Packages: 
 - [Deadcows Mybox](https://github.com/Deadcows/MyBox.git) (Editor Utils and Handy Extension Methods)
