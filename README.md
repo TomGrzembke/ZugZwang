@@ -35,7 +35,7 @@ ObjectPooling | [View](https://github.com/TomGrzembke/ZugZwang/blob/main/Assets/
 - Unity Version: 6000.0.51f1
 - Team Size : 9
 
-This Project was displayed for 5 days at the [Berlin IFA 2025](https://www.ifa-berlin.com/de).
+This Project was displayed for 5 days at the [Berlin IFA 2025](https://www.ifa-berlin.com/de) (Picture below), also at [Indietreff 45](https://www.indietreff.de/game/zugzwang/).
 
 <img width="672" height="504" alt="IFAExamplePicture" src="https://github.com/user-attachments/assets/3f099c48-702e-439e-adcc-6ac30959f7ff" />
 
