@@ -6,12 +6,20 @@ Figurines move automatically, swipe to manipulate the board.
 - 2 Programmers.
 - Self-set Task: Create a mobile game in Unity for Google Play Store in 10 weeks.
 
-# How To Run
+<div align="center">
+  
+![SwipeGraceFeature-ezgif com-optimize](https://github.com/user-attachments/assets/64df9302-624a-4764-9545-dab271007ba4)
+
+</div>
+
+## How To Run
 Head to Playstore: [here](https://play.google.com/store/apps/details?id=net.limitedheadspace.zugzwang)
 
 WebGL embed at itch.io (Not the target Platform): [here](https://tom-grzembke.itch.io/zugzwang-pc-version)
 
-## My Responsibility
+# My Responsibility
+
+<div align="center">
 
 System | Script | Purpose | 
   --- | --- | --- | 
