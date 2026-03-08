@@ -3,7 +3,7 @@
 Figurines move automatically, swipe to manipulate the board.
 
 - Created in Unity Engine.
-- 2 Programmers.
+- 2 Programmers. The other one is [Jannik Kluge](https://github.com/prayyOnIntelliJ).
 - Self-set Task: Create a mobile game in Unity for Google Play Store in 10 weeks.
 
 <div align="center">
@@ -23,9 +23,9 @@ WebGL embed at itch.io (Not the target Platform): [here](https://tom-grzembke.it
 
 System | Script | Purpose | 
   --- | --- | --- | 
-  CoroutineOperation | [Read here](https://github.com/TomGrzembke/ZugZwang/blob/main/Assets/_Workdata/GameWorld/Environment/Scripts/CoroutineOperation.cs) | Acts as a Container for a [Coroutine](https://docs.unity3d.com/530/Documentation/ScriptReference/MonoBehaviour.StartCoroutine.html) to receive an event OnFinished and cancel it early with more status info.|
-AutoMove | [Take a glance](https://github.com/TomGrzembke/ZugZwang/blob/main/Assets/_Workdata/GameWorld/Character/Scripts/AutoMove.cs) | Script Responsible for the Auto Movement of the Figurines.| 
-ObjectPooling | [Flip Through](https://github.com/TomGrzembke/ZugZwang/blob/main/Assets/_Workdata/Utility/Scripts/ObjectPooling.cs) | General Object Pooling System for reusing VFX, Figurines, Environment sets and Playing field segments. I adapted and tailored it to our needs from this [Tutorial](https://youtu.be/Ah3epb2HGCw).| 
+  CoroutineOperation | [View](https://github.com/TomGrzembke/ZugZwang/blob/main/Assets/_Workdata/GameWorld/Environment/Scripts/CoroutineOperation.cs) | Acts as a Container for a [Coroutine](https://docs.unity3d.com/530/Documentation/ScriptReference/MonoBehaviour.StartCoroutine.html) to receive an event OnFinished and cancel it early with more status info.|
+AutoMove | [View](https://github.com/TomGrzembke/ZugZwang/blob/main/Assets/_Workdata/GameWorld/Character/Scripts/AutoMove.cs) | Script Responsible for the Auto Movement of the Figurines.| 
+ObjectPooling | [View](https://github.com/TomGrzembke/ZugZwang/blob/main/Assets/_Workdata/Utility/Scripts/ObjectPooling.cs) | General Object Pooling System for reusing VFX, Figurines, Environment sets and Playing field segments. I adapted and tailored it to our needs from this [Tutorial](https://youtu.be/Ah3epb2HGCw).| 
 
 </div>
 
