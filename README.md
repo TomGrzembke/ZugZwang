@@ -30,7 +30,7 @@ ObjectPooling | [View](https://github.com/TomGrzembke/ZugZwang/blob/main/Assets/
 </div>
 
 # Additional Info
-- The primary VCS was peforce, that's why the initial commit contains most files.
+- The primary VCS was perforce, that's why the initial commit contains most files.
 - Release date: 15.08.2025
 - Unity Version: 6000.0.51f1
 - Team Size : 9
